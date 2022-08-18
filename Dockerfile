@@ -5,7 +5,7 @@ RUN apt-get install --reinstall ca-certificates -y
 RUN apt-get install software-properties-common -y
 RUN add-apt-repository --update ppa:ubuntu-toolchain-r/test
 
-RUN apt-get install openjdk-8-jdk -y
+RUN apt-get install openjdk-8-jdk maven -y
 
 
 # SSH
